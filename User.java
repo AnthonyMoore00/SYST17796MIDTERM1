@@ -57,5 +57,9 @@ public class User
     {
         password = givenPass;
     }
-    
+    public boolean UserNameValidator() {
+        if (name == null) {
+            name = false; 
+        }
+    }
 }
